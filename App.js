@@ -83,13 +83,9 @@ export default function Login() {
         <Text style={styles.loginText}>Sign Up</Text>
       </TouchableOpacity>
 
-       <Text style={styles.rem}>Login with</Text>
+       
 
-       <View style={styles.siteinput}>
-       <Image style={styles.site} source={require("./public/Instagram.png")} />
-       <Image style={styles.site} source={require("./public/Google.png")} />
-        <Image style={styles.site} source={require("./public/Facebook.png")} />
-     </View>
+       
           <Text style={styles.forgotbutton}>Forgot Password</Text>
     </View>
   );
@@ -131,26 +127,6 @@ eiew1:{
     marginLeft: 70,
   },
 
-  site: {
-    height:25,
-    width:25,
-    marginTop:13,
-    marginLeft:25,
-    flexDirection: 'row'
-
-  },
-
-  siteinput: {
-  
-    borderRadius: 30,
-    width: "80%",
-    height: 45,
-    marginBottom: 10,
-    marginLeft: 120,
-    flexDirection: 'row',
-
-
-  },
   
  
   inputView: {
